@@ -16,7 +16,7 @@ main:
 	move $t1 $v0
 	
 	# y/2 y>>1
-	srl $t1 $t1 1
+	sra $t1 $t1 1
 
 	# x-y/2
 	sub $t0 $t0 $t1
